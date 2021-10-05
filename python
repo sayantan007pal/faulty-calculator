@@ -1,0 +1,26 @@
+print("enter the first number")
+n1=int(input())
+print("enter the second number")
+n2=int(input())
+print("what do you want +,-,/,*")
+n3=input()
+if n1==45 and n2==3 and n3=="*":
+    print("555")
+elif n1==56 and n2==9 and n3=="+":
+    print("77")
+elif n1==56 and n2==6 and n3=="/":
+    print(4)
+elif n3=='+':
+    plus=n1+n2
+    print(plus)
+elif n3=='-':
+    minus=n1-n2
+    print(minus)
+elif n3=='/':
+    divide=n1/n2
+    print(divide)
+elif n3=='*':
+    multiply=n1*n2
+    print(multiply)
+else:
+    print(n3)
